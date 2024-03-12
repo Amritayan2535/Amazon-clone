@@ -40,7 +40,7 @@
 </label>
 <h3> selsect your highest degree</h3>
 <select name="degree">
-    <option value="10th pass">10 th</option>
+    <option value="10th  a pass">10 th</option>
     <option value="12th pass">12 th</option>
     <option value="diploma">diploma</option>
     <option value="btech">btech</option>
