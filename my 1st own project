@@ -1,52 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html tutorial registration form</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="mainproject.css">
 </head>
 <body>
-    <form action="/action.php">
-    <h1>Registration form</h1>
-    <img src="pexels-luis-gomes-546819.jpg" height="400" alt="coding image">
-    <br>
-    <input type="text" placeholder="enter your email here">
-    <input type="password" placeholder="enter your pasword  here">
-    <br>
-    <input type="text" placeholder="enter your name here ">
-    <input type="number" placeholder="enter your age here">
-    <br>
-    <h3> which languages do you know?</h3>
-    <label>
-        <input type="radio" value="c" id="101" name="c">c
-        </label><br><label>
-        <input type="radio" value="c++" id="102" name="c++">c++</label><br>
-        <label><input type="radio" value="python" id="103" name="python" >python
-    </label>
-</form>
-
-<form>
-    <h3>which coursework do you know?</h3>
-<label>
-    <input type="checkbox" value="oop">oop
-</label>
-<label>
-    <input type="checkbox" value="dsa">dsa
-</label>
-<label>
-    <input type="checkbox" value="dbms">dbms
-
-</label>
-<h3> selsect your highest degree</h3>
-<select name="degree">
-    <option value="10th  a pass">10 th</option>
-    <option value="12th pass">12 th</option>
-    <option value="diploma">diploma</option>
-    <option value="btech">btech</option>
-    <option value="mtech">mtech</option>
-</select>
-
-</form>
+    <div id="bar">
+        <a href="#" id="logo">Amazon.in</a>
+        <a href="#">Account</a>
+        <a href="#">My cart</a>
+        <a href="#">Contact Us</a>
+        
+        <input placeholder="Search amazon .in">
+        <button>search</button>
+        
+    </div>
 </body>
 </html>
